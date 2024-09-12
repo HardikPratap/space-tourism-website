@@ -175,6 +175,108 @@ body{
       .explore:hover::after {
         opacity: 1;
       }
+/* Section -1 */
+
+
+/* Section-2 */
+
+
+.section--2 {
+    padding: 5% 10%;
+  }
+  .main {
+    font-size: clamp(1rem, 1.5vw + 1rem, 20px);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  .main span {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    color: grey;
+  }
+  
+  .container {
+    height: 794px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 734px;
+  }
+  
+  .destination {
+    width: 80%;
+  }
+  
+  .nav {
+    height: 32px;
+  }
+  
+  .nav__item {
+    list-style: none;
+  }
+  
+  .nav .nav__link:hover {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 14%;
+  }
+  
+  .destination__nav--active {
+    color: grey;
+    border-bottom: 3px solid white;
+    padding-bottom: 14%;
+  }
+  
+  .destination nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+  
+  .destination__nav {
+    display: none;
+    font-size: 18px;
+  }
+  
+  .destination--moon {
+    display: block;
+  }
+  
+  .destination__nav h1 {
+    color: white;
+    margin: 7% 0;
+    font-size: 7rem;
+    font-weight: 600;
+  }
+  
+  .destination-line {
+    margin: 7% 0;
+  }
+  
+  .average {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    text-transform: uppercase;
+  }
+  
+  .average p {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  .average p span {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  /* section--2 */
 
   
 
