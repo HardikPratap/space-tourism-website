@@ -69,3 +69,34 @@ const images = {
       "starter-code/assets/technology/image-space-capsule-landscape.jpg",
     ],
   };
+  // Images
+
+//   Background Images 
+
+const getBackgroundImages = () => {
+    if (window.matchMedia("(max-width: 781px)").matches) {
+      return images.bgImagesMobile;
+    } else if (window.matchMedia("(max-width: 1024px)").matches) {
+      return images.bgImagesTablet;
+    } else {
+      return images.bgImagesDesktop;
+    }
+  };
+// Background Images  
+
+// Mobile Nav Toggle 
+
+navToggle.addEventListener("click", () => {
+    const visibility = navLinks.getAttribute("data-visible");
+  
+    if (visibility === "false") {
+      navToggle.setAttribute("aria-expanded", true);
+      navLinks.setAttribute("data-visible", true);
+    } else {
+      navLinks.setAttribute("data-visible", false);
+      navToggle.setAttribute("aria-expanded", false);
+    }
+  });
+
+  // Mobile Nav Toggle 
+  
